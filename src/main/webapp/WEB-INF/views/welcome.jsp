@@ -22,7 +22,7 @@
   </head>
 
   <body class="container">
-    <div>
+    <div class="mb-3">
       <h2 style="color: red">Welcome ${name}!!</h2>
       <br />
       <table class="table table-striped">

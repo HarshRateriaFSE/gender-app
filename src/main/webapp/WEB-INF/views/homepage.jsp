@@ -17,17 +17,18 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
       }
     </style>
   </head>
 
   <body class="container">
-    <h1 style="color: red;">Predict Gender using Name!!!</h1>
-    <br>
     <form method="post">
+      <div class="mb-3">
+        <h1 style="color: red">Predict Gender using Name!!!</h1>
+        <br />
+      </div>
       <div>
-        <div class="mb-3" style="width: 100%">
+        <div class="mb-3">
           <label for="formGroupExampleInput" class="form-label"
             >Enter your Name</label
           >
@@ -39,13 +40,15 @@
             placeholder="Enter your Name"
           />
         </div>
-        <div class="mb-3" style="width: 100%">
+        <div class="mb-3">
           <input type="submit" class="btn btn-primary" />
         </div>
       </div>
+      <div class="mb-3">
+        <small>made by harsh rateria...</small>
+      </div>
     </form>
-    <br>
-    <br>
-    <small>made by harsh rateria...</small>
+    <br />
+    <br />
   </body>
 </html>
