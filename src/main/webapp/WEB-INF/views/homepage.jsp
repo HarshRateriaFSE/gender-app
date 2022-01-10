@@ -24,6 +24,7 @@
 
   <body class="container">
     <h1 style="color: red;">Predict Gender using Name!!!</h1>
+    <br>
     <form method="post">
       <div>
         <div class="mb-3" style="width: 100%">
@@ -43,6 +44,8 @@
         </div>
       </div>
     </form>
+    <br>
+    <br>
     <small>made by harsh rateria...</small>
   </body>
 </html>
